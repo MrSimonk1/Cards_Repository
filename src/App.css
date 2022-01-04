@@ -1,0 +1,98 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.homePageDiv button {
+  padding: 20px;
+  font-size: 20px;
+  width: 200px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.homePageDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.toolbarDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+}
+
+.toolbarDiv h3 {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.toolbarDiv h3:hover {
+  background-color: #c9c9c9;
+}
+
+.styleDiv div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.styleDiv input {
+  width: 100px;
+}
+
+.styleDiv select {
+  width: 110px;
+}
+
+.titleImgDescription div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  gap: 20px;
+}
+
+.titleImgDescription textarea {
+  resize: none;
+  height: 50px;
+}
+
+.createPostBtn {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.allPostsDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.allPostsDiv img {
+  width: 100%;
+}
+
+.allPostsDiv div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.allPostsDiv h2 {
+  margin-top: 0;
+}
