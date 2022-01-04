@@ -67,8 +67,8 @@ const CreatePage = ({fnCreate}) => {
 
             <div className="styleDiv">
                 <h3>Style:</h3>
-                <div>Height:<input ref={height} type="number" placeholder="1-999 px"/></div>
-                <div>Width: <input ref={width} type="number" placeholder="1-999 px"/></div>
+                <div>Height (px):<input ref={height} type="number" placeholder="1-999 px"/></div>
+                <div>Width (px): <input ref={width} type="number" placeholder="1-999 px"/></div>
                 <div>Text color:
                     <select ref={color}>
                         <option value="black">Black</option>
@@ -77,7 +77,7 @@ const CreatePage = ({fnCreate}) => {
                         <option value="green">Green</option>
                     </select>
                 </div>
-                <div>Border radius: <input ref={borderRadius} type="number" placeholder="1-99 px"/></div>
+                <div>Border radius (px): <input ref={borderRadius} type="number" placeholder="1-99 px"/></div>
             </div>
             <div className="createPostBtn">
                 <button onClick={createPost}>Create Post</button>

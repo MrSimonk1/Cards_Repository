@@ -81,8 +81,8 @@ const EditPage = ({onePost, fnEdit}) => {
             </div>
             <div className="styleDiv">
                 <h3>Style:</h3>
-                <div>Height: <input ref={heightEdited} type="number" defaultValue={onePost.height} placeholder="1-999 px"/></div>
-                <div>Width: <input ref={widthEdited} type="number" defaultValue={onePost.width} placeholder="1-999 px"/></div>
+                <div>Height (px): <input ref={heightEdited} type="number" defaultValue={onePost.height} placeholder="1-999 px"/></div>
+                <div>Width (px): <input ref={widthEdited} type="number" defaultValue={onePost.width} placeholder="1-999 px"/></div>
                 <div>Text color:
                     <select ref={colorEdited} defaultValue={onePost.color}>
                         <option value="black">Black</option>
@@ -91,7 +91,7 @@ const EditPage = ({onePost, fnEdit}) => {
                         <option value="green">Green</option>
                     </select>
                 </div>
-                <div>Border radius: <input ref={borderRadiusEdited} type="number" defaultValue={onePost.borderRadius} placeholder="1-99 px"/></div>
+                <div>Border radius (px): <input ref={borderRadiusEdited} type="number" defaultValue={onePost.borderRadius} placeholder="1-99 px"/></div>
             </div>
             <div className="createPostBtn">
                 <button onClick={() => all()}>Edit</button>
